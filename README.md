@@ -1,2 +1,2 @@
 # Pokedex
-Pokemon Search App
+Pokemon Search App in JavaScript
