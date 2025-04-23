@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Pokémon Search</h1>
+  
+  <!-- Search Input -->
+  <div>
+    <input type="text" id="search-input" placeholder="Enter Pokémon Name or ID" required>
+    <button id="search-button" type="button">Search</button>
+  </div>
+
+  <!-- Pokémon Info -->
+  <div class="pokemon-info">
+    <h2 id="pokemon-name">(Name here)</h2>
+    <p>Id: <span id="pokemon-id"></span></p>
+    <div id="sprite-element"><img id="sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="placeholder sprite"></div>
+    <p id="height">Height:</p>
+    <p id="weight">Weight:</p>
+    <div id="types">(types here)</div>
+
+    <!-- Pokémon Stats -->
+    <div class="stats">
+      <div class="stat-item"><strong>HP:</strong> <span id="hp"></span></div>
+      <div class="stat-item"><strong>Attack:</strong> <span id="attack"></span></div>
+      <div class="stat-item"><strong>Defense:</strong> <span id="defense"></span></div>
+      <div class="stat-item"><strong>SpecAtt:</strong> <span id="special-attack"></span></div>
+      <div class="stat-item"><strong>SpecDef:</strong> <span id="special-defense"></span></div>
+      <div class="stat-item"><strong>Speed:</strong> <span id="speed"></span></div>
+    </div>
+  </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
